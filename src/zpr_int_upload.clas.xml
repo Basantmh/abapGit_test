@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Upload Utility Global Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Program ID</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Infotype</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>CC_MSGID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>CREATE_DYNAMIC_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynamic Table Create</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>DISPLAY_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>DISPLAY_ALV_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display ALV Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>UPDATE_DATA_INFTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Data Infotypes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>UPDATE_DATA_INFTY_NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Data Infotypes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>UPLOAD_FILE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upload File</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>VALUE_REQ_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Value Request</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZPR_INT_UPLOAD</CLSNAME>
+     <CMPNAME>WRITE_APP_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write Application Log</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
