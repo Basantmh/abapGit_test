@@ -1,0 +1,186 @@
+{
+	"global": {
+		"files": "/src/**/*.*",
+		"skipGeneratedGatewayClasses": true,
+		"skipGeneratedPersistentClasses": true,
+		"skipGeneratedFunctionGroups": true,
+		"exclude": [".+(\\.w3ht\\.(data\\.html|xml))$"]
+	},
+	"dependencies": [
+		{
+			"url": "https://github.com/abaplint/deps",
+			"folder": "/deps",
+			"files": "/src/**/*.*"
+		}
+	],
+	"syntax": {
+		"version": "v740sp08",
+		"errorNamespace": "^(Z|Y|LCL_|/CLIN/)"
+	},
+	"rules": {
+		"7bit_ascii": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"avoid_use": {
+			"exclude": [],
+			"severity": "Error",
+			"define": true,
+			"statics": true,
+			"defaultKey": false,
+			"break": true,
+			"describeLines": false
+		},
+		"check_comments": {
+			"exclude": [],
+			"severity": "Error",
+			"allowEndOfLine": true
+		},
+		"definitions_top": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"empty_line_in_statement": {
+			"severity": "Error",
+			"exclude": [],
+			"allowChained": false
+		},
+		"empty_statement": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"empty_structure": {
+			"try": true,
+			"severity": "Error",
+			"exclude": [],
+			"loop": true,
+			"if": true,
+			"while": true,
+			"case": true,
+			"select": true,
+			"do": true,
+			"at": true,
+			"when": true
+		},
+		"exit_or_check": {
+			"allowCheck": true,
+			"allowExit": false,
+			"exclude": []
+		},
+		"inline_data_old_versions": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"local_class_naming": {
+			"exclude": [],
+			"severity": "Error",
+			"patternKind": "required",
+			"ignoreNames": [],
+			"ignorePatterns": [],
+			"local": "^LCL_.+$",
+			"exception": "^LCX_.+$",
+			"test": "^LTCL_.+$"
+		},
+		"local_variable_names": {
+			"exclude": [
+				"exref"
+			],
+			"severity": "Error",
+			"patternKind": "required",
+			"ignoreNames": [],
+			"ignorePatterns": [],
+			"expectedData": "^(L|I)._.+$",
+			"expectedConstant": "^LC_.+$",
+			"expectedFS": "^<(F|L)S_.+>$"
+		},
+		"max_one_statement": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"message_exists": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"method_parameter_names": {
+			"severity": "Error",
+			"exclude": [],
+			"ignoreExceptions": true,
+			"importing": "^I(V|T|O)_.+$",
+			"returning": "^R(V|T|O)_.+$",
+			"changing": "^C(V|T|O)_.+$",
+			"exporting": "^E(V|R|T|O)_.+$",
+			"ignoreNames": []
+		},
+		"msag_consistency": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"nesting": {
+			"exclude": [],
+			"depth": 7
+		},
+		"object_naming": {
+			"severity": "Error",
+			"exclude": [],
+			"clas": "^(/CLIN/|Z)C(L|X)_.+",
+			"intf": "^(/CLIN/|Z)IF_.+",
+			"prog": "^(/CLIN/|Z).+",
+			"fugr": "^(/CLIN/|Z).+",
+			"tabl": "^(/CLIN/|Z).+",
+			"ttyp": "^(/CLIN/|Z)TT_.+",
+			"dtel": "^(/CLIN/|Z).+",
+			"doma": "^(/CLIN/|Z).+",
+			"msag": "^(/CLIN/|Z).+",
+			"tran": "^(/CLIN/|Z).+",
+			"enqu": "^(/CLIN/|Z).+",
+			"auth": "^(/CLIN/|Z).+",
+			"pinf": "^(/CLIN/|Z).+"
+		},
+		"obsolete_statement": {
+			"exclude": [],
+			"severity": "Error",
+			"refresh": false,
+			"compute": true,
+			"add": true,
+			"subtract": true,
+			"multiply": true,
+			"divide": true,
+			"move": false,
+			"requested": true,
+			"occurs": false,
+			"setExtended": true,
+			"withHeaderLine": true,
+			"fieldSymbolStructure": false,
+			"typePools": false,
+			"load": true,
+			"parameter": true,
+			"ranges": false,
+			"communication": true,
+			"pack": true,
+			"selectWithoutInto": true,
+			"freeMemory": true,
+			"exitFromSQL": true,
+			"sortByFS": false,
+			"callTransformation": false,
+			"regex": false,
+			"occurences": false
+		},
+		"sequential_blank": {
+			"severity": "Error",
+			"exclude": [],
+			"lines": 5
+		},
+		"tabl_enhancement_category": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"unreachable_code": {
+			"severity": "Error",
+			"exclude": []
+		},
+		"when_others_last": {
+			"severity": "Error",
+			"exclude": []
+		}
+	}
+}
