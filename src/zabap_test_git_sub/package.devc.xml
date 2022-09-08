@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>Test for ABAP git</CTEXT>
+    <CTEXT>Sub package of ZABAP_TEST_GIT</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>
