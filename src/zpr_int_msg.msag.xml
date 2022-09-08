@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZPR_INT_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class Upload Utility</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Infotype &amp;1, Personnel No. &amp;2, Subtype &amp;3, Locking Error Message &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Infotype &amp;1, Personnel No. &amp;2, Subtype &amp;3, Standard Message &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Data has been uploaded, Please check logs for more details.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Technical Issue in creating object instance.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Failed to retrieve data types. Please check configurations in ZPR_INT_UP.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Configuration in Table ZPR_INT_UP is incomplete for &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Dynamic Table could not be created. Please ensure proper configurations.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>File upload failed. Please ensure file is not open on desktop.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Infotype &amp;1, Personnel No. &amp;2, Subtype &amp;3, Successfully Updated.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPR_INT_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Infotype &amp;1, Personnel No. &amp;2, Subtype &amp;3, Error While Updating.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
